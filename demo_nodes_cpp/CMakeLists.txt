@@ -62,9 +62,10 @@ add_library(services_library SHARED
   src/services/add_two_ints_server.cpp
   src/services/add_two_ints_client.cpp
   src/services/add_two_ints_client_async.cpp
-  src/services/introspection_service.cpp
-  src/services/introspection_client.cpp)
-add_library(parameters_library SHARED
+  #src/services/introspection_service.cpp
+  #src/services/introspection_client.cpp)
+  )
+  add_library(parameters_library SHARED
   src/parameters/list_parameters.cpp
   src/parameters/parameter_blackboard.cpp
   src/parameters/set_and_get_parameters.cpp
